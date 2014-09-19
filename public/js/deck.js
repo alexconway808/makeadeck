@@ -38,6 +38,26 @@ Deck.prototype.deal = function(){
   return this.cards.splice(0, 5);  //Splice out and return the first 5 elements of the this.cards array
 }
 
-// Deck.prototype.shuffle = function(){
-//   this.cards.random shuffle
-// }
+Deck.prototype.shuffle = function(){
+  var counter = this.cards.length; 
+  var random_index = 0;
+  var temp = null;
+
+  while (counter > 0) {
+
+    random_index = Math.floor(Math.random() * counter);
+
+    counter--;
+
+    temp = this.cards[counter];
+    this.cards[counter] = this.cards[random_index];
+    this.cards[random_index] = temp; 
+  } 
+
+}
+
+  
+  //assign each card to a random number
+  //sort the numbers asc to desc
+  //change the number back to cards
+  //display random deck

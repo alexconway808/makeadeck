@@ -9,6 +9,8 @@
   //Instantiate a new deck from the Deck class
   var deck = new Deck();
 
+  deck.shuffle();
+
   var hand = deck.deal();
 
   var handContainer = $('<div id ="display_MyHand"></div>');
@@ -54,5 +56,6 @@
   var cardFiveImage = $('<img src="'+cardFiveSuit + '">');
   cardFive.append(cardFiveImage);
   handContainer.append(cardFive);
+
 
 })()
