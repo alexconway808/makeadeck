@@ -38,3 +38,6 @@ Deck.prototype.deal = function(){
   return this.cards.splice(0, 5);  //Splice out and return the first 5 elements of the this.cards array
 }
 
+// Deck.prototype.shuffle = function(){
+//   this.cards.random shuffle
+// }

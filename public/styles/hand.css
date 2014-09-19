@@ -1,4 +1,29 @@
 #display_cardOne {
   border: solid 5px black;
+  width: 233px;
+  float: left;
 }
 
+#display_cardTwo {
+ border: solid 5px black;
+ width: 233px;
+ float: left;
+}
+
+#display_cardThree {
+ border: solid 5px black;
+ width: 233px; 
+ float: left;
+}
+
+#display_cardFour {
+ border: solid 5px black;
+ width: 233px;
+ float: left; 
+}
+
+#display_cardFive {
+ border: solid 5px black;
+ width: 233px;
+ float: left; 
+}
